@@ -4,6 +4,5 @@
     { "source": "/(.*)", "destination": "app.py" }
   ],
   "env": {
-    "DATABASE_URL": "mysql+pymysql://avnadmin:YOUR_PASSWORD_HERE@rohit-resume-app-rislrohitjain-94e5.a.aivencloud.com:18902/rohit-resume-app?ssl_md5=REQUIRED"
   }
 }
