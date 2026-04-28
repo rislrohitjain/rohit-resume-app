@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "app.py" }
+  ],
+  "env": {
+    "DATABASE_URL": "mysql+pymysql://avnadmin:AVNS_-G3C-OLPnrivL8esWNy@rohit-resume-app-rislrohitjain-94e5.a.aivencloud.com:18902/rohit-resume-app?ssl_md5=REQUIRED"
+  }
+}
