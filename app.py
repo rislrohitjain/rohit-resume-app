@@ -39,12 +39,12 @@ with app.app_context():
 @app.route('/')
 def resume():
     # 3. Logic to update counter
-    counter_record = PageVisit.query.first()
-    counter_record.count += 1
-    db.session.commit()
+    #  counter_record = PageVisit.query.first()
+    # counter_record.count += 1
+    # db.session.commit()
     
-    current_visits = counter_record.count
-
+    # current_visits = counter_record.count 
+    current_visits =  568;
     data = {
         "name": "Rohit Jain",
         "title": "Full Stack Developer & AI Automation Architect",
