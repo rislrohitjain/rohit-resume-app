@@ -1,9 +1,15 @@
 {
   "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python"
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "app.py" }
   ],
   "env": {
-    "DATABASE_URL": "mysql+pymysql://avnadmin:os.environ.get('AIVEN_PASSWORD')@rohit-resume-app-rislrohitjain-94e5.a.aivencloud.com:18902/defaultdb?ssl_md5=REQUIRED"
+    "DATABASE_URL": "mysql+pymysql://avnadmin:AVNS_-G3C-OLPnrivL8esWNy@rohit-resume-app-rislrohitjain-94e5.a.aivencloud.com:18902/defaultdb?ssl_md5=REQUIRED"
   }
 }
