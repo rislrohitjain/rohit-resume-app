@@ -50,7 +50,7 @@ def resume():
         "title": "Full Stack Developer & AI Automation Architect",
         "location": "Jaipur, Rajasthan",
         "experience": "9+ Years",
-        "skills": ["Ollama", "LangChain", "n8n", "Laravel", "Python", "React", "MySQL", "PHP"],
+        "skills": ["Ollama", "LangChain","Langgraph", "n8n", "Laravel", "Python", "React", "MySQL", "PHP"],
         "visits": current_visits  # Pass the count to the template
     }
     return render_template('index.html', data=data)
